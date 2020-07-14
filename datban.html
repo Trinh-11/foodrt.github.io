@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<title>Đặt Bàn</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", Arial, Helvetica, sans-serif}
+.myLink {display: none}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+  <div  class="w3-bar w3-white w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button " style="font-size: 30px; font-family: monotype corsiva; color: red;"><b>Food.RT</b></a>
+    <a href="Home.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="color: red; margin-top: 10px;">Trang Chủ</a>
+    <a href="Eat.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="color: red; margin-top: 10px;">Món Ăn</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="color: red; margin-top: 10px;">Nhà Hàng</a>
+    <a href="danhgia.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="color: red; margin-top: 10px;">Đánh Giá</a>
+    <a href="dangnhap.html" class="w3-padding-large w3-hover-white w3-hide-small w3-right"><button class="w3-button w3-border w3-border-blue w3-round-large" style=" color: black;">Đăng Nhập</button></a>
+    <a href="dangky.html" class="w3-padding-large w3-hover-white w3-hide-small w3-right" style="margin-right: -30px;"><button class="w3-button w3-border w3-border-blue w3-round-large" style=" color: black;">Đăng Ký</button></a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
+  <img class="w3-image" src="https://www.w3schools.com/w3images/london2.jpg" alt="London" width="1500" height="700">
+  <div class="w3-display-middle" style="width:65%">
+    <div class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'nhahang');"><i class="fa fa-bed w3-margin-right"></i>Nhà Hàng</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Giaohang');"><i class="fa fa-car w3-margin-right"></i>Giao Hàng</button>
+    </div>
+
+
+    <div id="nhahang" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Tìm kiếm nhà hàng tốt nhất</h3>
+      <p>Đặt bàn để nhận được các vé giảm giá và tham gia những chương trình khuyến mãi.</p>
+      <p><button class="w3-button w3-dark-grey">Tìm kiếm nhà hàng</button></p>
+    </div>
+
+    <div id="Giaohang" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Giao hàng nhanh</h3>
+      <p><span class="w3-tag w3-deep-orange">Giảm giá!</span> Ưu đãi đặc biệt nếu bạn đặt đồ ăn ngay hôm nay: giảm giá 25% ở bất cứ đâu.</p>
+      <input class="w3-input w3-border" type="text" placeholder="Pick-up point">
+      <p><button class="w3-button w3-dark-grey">Tìm kiếm</button></p>
+    </div>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px;">
+
+  <!-- Good offers -->
+  <div class="w3-container w3-margin-top">
+    <h3>Uư Đãi Tốt Ngay Bây Giowf</h3>
+    <h6>Giảm giá tới <strong>50%.</strong></h6>
+  </div>
+  <div class="w3-row-padding w3-text-white w3-large">
+    <div class="w3-half w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="http://c30hotel.com/wp-content/uploads/2014/11/nha-hang-8.jpg" alt="Cinque Terre" style="width:100%">
+        <span class="w3-display-bottomleft w3-padding">Cinque Terre</span>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://cdn.justfly.vn/1080x608/media/44/e0/9a1e-87dc-4cfe-bc86-c2fd2c26248b.jpg" alt="New York" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Chuỗi Ân Nam Quán</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://cdn.justfly.vn/660x440/media/d1/a7/97c2-a97c-450e-960e-f8f5a0ec0a64.jpg" alt="San Francisco" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding"> Chuỗi Lẩu Cua Đất Mũi</span>
+          </div>
+        </div>
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://cdn.justfly.vn/2000x1297/media/84/1c/0cca-4828-45ce-b8b5-cdb73efcfd55.jpg" alt="Pisa" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">San Fu Lou</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://cdn.justfly.vn/1000x667/media/05/58/dadd-f5dc-47ac-9c48-9e359e835c0c.jpg" alt="Paris" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Dín Ký</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Explore Nature -->
+  <div class="w3-container">
+    <h3>Khám Phá Ẩm Thực </h3>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <img src="https://pastaxi-manager.onepas.vn/content/uploads/articles/2amthuc/nhahang/top10nhahangvietnam/top-10-nha-hang-viet-nam-ngon-noi-tieng-nhat-o-ha-noi-3.jpg" alt="Norway" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Nhà hàng Chợ Quê</h3>
+        <p class="w3-opacity">24 Nguyễn Gia Thiều, Quận Hoàn Kiếm</p>
+        <p>Mang đậm bản sắc đồng quê, nơi đây từ lâu đã trở thành cái tên quen thuộc của thực khách Thủ đô - những người ưa chuộng các món ngon của miền quê Việt.</p>
+        <button class="w3-button w3-margin-bottom">Mua ngay</button>
+      </div>
+    </div>
+    <div class="w3-half w3-margin-bottom">
+      <img src="https://pastaxi-manager.onepas.vn/content/uploads/articles/10nhahangvietnamhanoimoi/top-10-nha-hang-viet-nam-ngon-nhat-o-ha-noi-anh-5.jpg" alt="Austria" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Quán Xưa</h3>
+        <p class="w3-opacity">Số 104A Ngọc Khánh, Quận Ba Đình, Hà Nội</p>
+        <p>Các món ăn độc đáo đặc sắc từ các vùng quê trên cả nước đồng thời được đắm chìm vào không gian bình yên bằng những bức tranh ảnh chợ quê, phố cổ Hà Nội.</p>
+        <button class="w3-button w3-margin-bottom">Mua ngay</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newsletter -->
+  <div class="w3-container">
+    <div class="w3-panel w3-padding-16 w3-black w3-opacity w3-card w3-hover-opacity-off">
+      <h2>Nhận cung cấp tốt nhất đầu tiên!</h2>
+      <p>Tham gia bản tin của chúng tôi.</p>
+      <label>E-mail</label>
+      <input class="w3-input w3-border" type="text" placeholder="Your Email address">
+      <button type="button" class="w3-button w3-red w3-margin-top">Theo giỏi</button>
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container">
+    <h2>Tiếp Tục</h2>
+    <p>Hãy để chúng tôi đặt bàn tiếp theo của bạn!</p>
+    <i class="fa fa-map-marker" style="width:30px"></i> TP Đà Nẵng<br>
+    <i class="fa fa-phone" style="width:30px"></i> Điện Thoại: 0946731227<br>
+    <i class="fa fa-envelope" style="width:30px"> </i> Email: tttrinh.19it4@sict.udn.vn<br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-black w3-padding-large" type="submit">GỬI TIN NHẮN</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h4>WEBSITE</h4>
+      <p><a href="" style="color: blue;">Giới thiệu</a></p>
+      <p><a href="" style="color: blue;">Hướng dẫn trở thành Blogger</a></p>
+      <p><a href="" style="color: blue;">Review</a></p>
+      <p><a href="" style="color: blue;">Điều khoản sử dụng</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <center>
+      <h4>FOOD.RT</h4>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+      <div class="w3-xlarge w3-padding-16">
+        <i class="fa fa-facebook-official w3-hover-opacity" style="margin-top: 25px;"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div>
+      </center>
+    </div>
+
+    <div class="w3-third" style="text-align: right;">
+      <h4>LIÊN HỆ</h4>
+      <p>Địa chỉ: Đường Nam Kỳ Khởi Nghĩa, Phường Hòa Qúy, Quận Ngũ Hành Sơn</p>
+      <p>SĐT: 0946731227</p>
+      <p>Email: tttrinh.19it4@sict.udn.vn</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<script>
+// Tabs
+function openLink(evt, linkName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("myLink");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(linkName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+
+// Click on the first tablink on load
+document.getElementsByClassName("tablink")[0].click();
+</script>
+
+</body>
+</html>
